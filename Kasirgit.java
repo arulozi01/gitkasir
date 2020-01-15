@@ -42,6 +42,39 @@ while(c<0 || c>4){
    System.out.println(c+ " is an invalid selection. Please enter your choice again");
    c=input.nextInt(); 
 } 
+System.out.println("you ordered a "+menu[c]);
+System.out.println("how many "+menu[c]+" would you like");
 
+int amount;
+amount=3;
+System.out.println(amount);
+switch(c){
+   
+   case(0):
+   price=paketA*1+price;
+   break;
+   
+   case(1):
+   price=paketB*1+price;
+   break;
+   
+   case(2):
+   price=paketC*1+price;
+   break;
+   
+   case(3):
+   price=paketM*1+price;
+   break;
+   
+   case(4):
+   price=paketK*1+price;
+   break;
+   
+ 
+}
+System.out.println("youre total is Rp"+price);
+
+
+    }
     
 }
